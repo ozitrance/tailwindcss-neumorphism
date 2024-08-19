@@ -72,7 +72,7 @@ module.exports = plugin(
         let shades = generateShades(color, theme)
         if (!shades) {
           console.log(
-            `tailwind-neumorphism: Something went wrong generating shades of '${colorKey}' (${color}). Skipping.`
+            `tailwind-neumorphism: Something went wrong generating shades of '${colorKey}' (${color}), (${theme}). Skipping.`
           )
           return false
         }
@@ -104,7 +104,7 @@ module.exports = plugin(
         let shades = generateShades(color, theme)
         if (!shades) {
           console.log(
-            `tailwind-neumorphism: Something went wrong generating shades of '${colorKey}' (${color}). Skipping.`
+            `tailwind-neumorphism: Something went wrong generating shades of '${colorKey}' (${color}), (${theme}). Skipping.`
           )
           return false
         }
@@ -136,7 +136,7 @@ module.exports = plugin(
         let shades = generateShades(color, theme)
         if (!shades) {
           console.log(
-            `tailwind-neumorphism: Something went wrong generating shades of '${colorKey}' (${color}). Skipping.`
+            `tailwind-neumorphism: Something went wrong generating shades of '${colorKey}' (${color}), (${theme}). Skipping.`
           )
           return false
         }
@@ -168,7 +168,7 @@ module.exports = plugin(
         let shades = generateShades(color, theme)
         if (!shades) {
           console.log(
-            `tailwind-neumorphism: Something went wrong generating shades of '${colorKey}' (${color}). Skipping.`
+            `tailwind-neumorphism: Something went wrong generating shades of '${colorKey}' (${color}), (${theme}). Skipping.`
           )
           return false
         }
