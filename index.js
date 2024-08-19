@@ -72,7 +72,7 @@ module.exports = plugin(
         let shades = generateShades(color, theme)
         if (!shades) {
           console.log(
-            `tailwind-neumorphism: Something went wrong generating shades of '${colorKey}' (${color}), (${Color(color).hex()}), (${theme('neumorphismShadow')}). Skipping.`
+            `tailwind-neumorphism: Something went wrong generating shades of '${colorKey}' (${color}), (${colorKey}), (${theme('neumorphismShadow')}). Skipping.`
           )
           return false
         }
