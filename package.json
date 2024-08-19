@@ -26,8 +26,8 @@
   "homepage": "https://github.com/sambeevors/tailwindcss-neumorphism#readme",
   "license": "MIT",
   "dependencies": {
-    "color": "^3.1.2",
+    "color": "^4.2.3",
     "loadash": "^1.0.0",
-    "tailwindcss": "^1.4.6"
+    "tailwindcss": "^3.4.1"
   }
 }
